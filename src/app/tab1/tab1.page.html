@@ -1,17 +1,66 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
+    <ion-toolbar>
+        <ion-title>
+            Tab 1
+        </ion-title>
+    </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+    <div class="main-wrapper">
+        <div class="card-wrapper">
+            <div class="h-wrapper">
+
+                <div>
+                    <ion-icon name="chevron-back-outline"></ion-icon>
+                </div>
+
+                <div>
+                    <p>Detalii</p>
+                    <p>Contract</p>
+                </div>
+                <div>
+                    <img src="./assets/rohit.jpg" alt="">
+                </div>
+            </div>
+            <div class="p-wrapper">
+                <div>
+                    <img src="./assets/rohit.jpg" alt="">
+                </div>
+                <div>
+                    <p>Set de Farfurii</p>
+                    <p>Remus Spoitoru</p>
+                </div>
+                <div>
+                    <p>-$64.00</p>
+                </div>
+            </div>
+            <div class="a-wrapper">
+                <a>Harta</a>
+                <a class="active">Detalii</a>
+            </div>
+            <p class="p-style">Oradea - Floresti</p>
+            <div class="s-wrapper">
+                <div>
+                    <p>Total: <span>270km</span></p>
+                </div>
+                <div>
+                    <p>Ramasi: <span>180km</span></p>
+                </div>
+            </div>
+            <div class="i-wrapper">
+                <input type="text" value="asddsadsad">
+            </div>
+            <div class="b-wrapper">
+                <button>Finalizeaza Contractul</button>
+            </div>
+        </div>
+    </div>
+    <!-- <ion-header collapse="condense">
     <ion-toolbar>
       <ion-title size="large">Tab 1</ion-title>
     </ion-toolbar>
-  </ion-header>
+  </ion-header> -->
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+    <!-- <app-explore-container name="Tab 1 page"></app-explore-container> -->
 </ion-content>
