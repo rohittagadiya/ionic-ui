@@ -1,6 +1,8 @@
 # Modern app UI in ionic 5
 
+## Showcase
+<p align="center">
+<img width="250" src="./src/assets/ss_1.png">
+</p>
 
-![](./src/assets/ss_1.png){width="200px"}
-
-<img src="./src/assets/ss_1.png" style="width: 200px;" />
+![](./src/assets/ss_1.png)
